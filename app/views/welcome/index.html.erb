@@ -1,0 +1,10 @@
+<% title "Welcome" %>
+
+<!-- <h1><div style="text-align:center">Welcome</div></h1> -->
+<h1><div style="text-align:center"><%= t('.title') %></div></h1>
+<div>
+  <% if user_signed_in? %>
+  <div align = 'center'><%= image_tag("blah.png", :alt => "Blaaah") %> </div>
+ 	<% end %>
+<div>
+

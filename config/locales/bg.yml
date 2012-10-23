@@ -1,0 +1,24 @@
+bg:
+  layout:
+    application:
+      title: "Здравей!"
+
+  welcome:
+    index:
+      title: "Привет"
+    
+  devise:
+    sessions:
+      new:
+        sign_in: "Вход"
+    registrations:
+      new:
+        sign_up: "Регистрация"
+
+  helpers:
+    label:
+      user:
+        remember_me: "Запомни ме"
+        password: "Парола"
+        password_confirmation: "Потвърждаване на паролата"
+        email: "Електронна поща(Имейл)"
