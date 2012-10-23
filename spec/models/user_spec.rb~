@@ -58,18 +58,18 @@ describe User do
 		it { should be_invalid }
 	end
 	
-#	describe "edit" do
-#	let(:user) { FactoryGirl.create(:user) }
-#		before { visit edit_user_registration_path(user) }
+	describe "edit" do
+	let(:user) { FactoryGirl.create(:user) }
+		before { visit edit_user_registration_path(user) }
 
-#		describe "edit page" do
-#			it { should have_selector('h2', text: "Edit User") }
-#		end
+		describe "edit page" do
+			it { should have_selector('h2', text: "Edit User") }
+		end
 
-#		describe "with invalid information" do
-#		let(:error) { '1 error prohibited this user from being saved' }
-#			before { click_button "Update" }
-#				it { should have_content(error) }
-#		end
-#	end
+		describe "with invalid information" do
+		let(:error) { '1 error prohibited this user from being saved' }
+			before { click_button "Update" }
+				it { should have_content(error) }
+		end
+	end
 end

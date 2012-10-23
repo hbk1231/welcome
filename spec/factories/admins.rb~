@@ -1,8 +1,9 @@
 # Read about factories at https://github.com/thoughtbot/factory_girl
 
 FactoryGirl.define do
-  factory :user do
-    email "martin@example.com"
+  factory :admin do
+    email "admin@example.com"
     password  "secret"
+    admin true
   end
 end
